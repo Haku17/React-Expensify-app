@@ -1,0 +1,22 @@
+.button {
+  border: none;
+  background-color:$blue;
+  color: #fff;
+  font-size:$font-size-large;
+  font-weight: 300;
+  padding:$s-size;
+  display: inline-block;
+  line-height: 1;
+  text-decoration: none;
+  &:hover {
+    background-color: darken($blue, 10%);
+  }
+}
+
+.button--link {
+  background: none;
+}
+
+.button--secondary {
+  background: #888;
+}
